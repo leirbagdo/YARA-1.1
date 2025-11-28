@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yarã - Página Inicial</title>
+  <link rel="stylesheet" href="/outro arquivo/css/gabriel.css">
+</head>
+<body>
+  <header class="navbar glass">
+    <div class="brand">
+      <img src="/outro arquivo/imagens/yara94.png" alt="Logo Yarã" class="logo">
+      <span class="brand-name">Yarã</span>
+    </div>
+    <nav class="menu">
+      <a href="/outro arquivo/home page/yara.html">Home</a>
+      <a href="linguas.html">Línguas</a>
+      <a href="/outro arquivo/home page/tradutor.html">Tradutor</a>
+      <a href="#">Pesquisa</a>
+      <a href="#">Quem Somos</a>
+    </nav>
+  </header>
+
+  <main class="lingua-container">
+    <div class="lingua-header">
+      <h1>Língua Guarani</h1>
+      <img src="/outro arquivo/imagens/povo guarani.jpeg" alt="Povo Guarani" class="lingua-img">
+    </div>
+
+    <div class="lingua-info glass">
+      <h2>Sobre o Povo Guarani</h2>
+      <p>Os Guarani são um dos maiores grupos indígenas da América do Sul, com população significativa no Brasil, Paraguai, Argentina e Bolívia. Sua língua pertence à família Tupi-Guarani e é falada por aproximadamente 5 milhões de pessoas, sendo uma das línguas indígenas mais faladas nas Américas.</p>
+      
+      <div class="info-grid">
+        <div class="info-item">
+          <h3>Região</h3>
+          <p>Sul e Sudeste do Brasil</p>
+        </div>
+        <div class="info-item">
+          <h3>Falantes</h3>
+          <p>Aproximadamente 5 milhões</p>
+        </div>
+        <div class="info-item">
+          <h3>Família Linguística</h3>
+          <p>Tupi-Guarani</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="lingua-content">
+      <div class="dicionario glass">
+        <h2>Dicionário Básico Guarani</h2>
+        <div class="palavras-list" id="palavrasGuarani">
+          <!-- Palavras carregadas via JavaScript -->
+        </div>
+      </div>
+
+      <div class="cultural glass">
+        <h2>Curiosidades Culturais</h2>
+        <ul>
+          <li>O Guarani é língua oficial no Paraguai junto com o espanhol</li>
+          <li>A cosmovisão Guarani é centrada na busca pela "Terra Sem Males" (Yvy Marãe'ỹ)</li>
+          <li>Possui rica tradição oral com mitos, lendas e cantos sagrados</li>
+          <li>A arte Guarani é conhecida pela cestaria e pela cerâmica</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="traductor-box glass">
+      <h2>Traduzir para Guarani</h2>
+      <div class="input-group">
+        <input type="text" id="textoGuarani" placeholder="Digite uma palavra em português">
+        <button onclick="traduzirGuarani()">Traduzir</button>
+      </div>
+      <div class="resultado" id="resultadoGuarani"></div>
+    </div>
+  </main>
+
+  <footer class="glass footer">
+    &copy; 2025 Yarã. Todos os direitos reservados.
+  </footer>
+
+  <script src="/outro arquivo/java script/guarani.js"></script>
+</body>
+</html>
